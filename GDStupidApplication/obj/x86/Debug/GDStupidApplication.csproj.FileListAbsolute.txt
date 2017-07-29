@@ -1,0 +1,18 @@
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\bin\Debug\GDStupidApplication.exe
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\bin\Debug\GDStupidApplication.pdb
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\obj\x86\Debug\GDStupidApplication.MasterForm.resources
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\obj\x86\Debug\GDStupidApplication.Properties.Resources.resources
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\obj\x86\Debug\GDStupidApplication.csproj.GenerateResource.Cache
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\obj\x86\Debug\GDStupidApplication.exe
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\obj\x86\Debug\GDStupidApplication.pdb
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\obj\x86\Debug\GDStupidApplication.ChildForm.GDLock.resources
+C:\Users\GD\AppData\Local\Temporary Projects\GDStupidApplication\obj\x86\Debug\GDStupidApplication.ChildForm.GDSafe.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.exe
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.pdb
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\bin\Debug\GDStupidApplication.exe
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\bin\Debug\GDStupidApplication.pdb
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.ChildForm.GDLock.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.ChildForm.GDSafe.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.MasterForm.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.Properties.Resources.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.csproj.GenerateResource.Cache
