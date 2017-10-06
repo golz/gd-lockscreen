@@ -1,0 +1,10 @@
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\bin\Release\GDStupidApplication.exe
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\bin\Release\GDStupidApplication.pdb
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.csprojResolveAssemblyReference.cache
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.ChildForm.GDLock.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.ChildForm.GDSafe.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.MasterForm.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.Properties.Resources.resources
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.csproj.GenerateResource.Cache
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.exe
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Release\GDStupidApplication.pdb

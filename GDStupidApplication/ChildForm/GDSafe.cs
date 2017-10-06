@@ -17,11 +17,16 @@ namespace GDStupidApplication.ChildForm
         //Declaring Global objects
         private IntPtr ptrHook;
         private LowLevelKeyboardProc objKeyboardProcess;
-
+        private int failCount;
+        private bool locked;
+        private int unlockSeconds;
         public GDSafe()
         {
             InitializeComponent();
-
+            //Try Count = 0;
+            failCount = 0;
+            unlockSeconds = 0;
+            locked = false;
             //Get Current Module
             ProcessModule objCurrentModule = Process.GetCurrentProcess().MainModule;
             //Assign callback function each time keyboard process
@@ -102,6 +107,15 @@ namespace GDStupidApplication.ChildForm
 
             clock.Text = DateTime.Now.ToString("hh:mm:ss tt");
             dayName.Text = DateTime.Now.ToString("  dddd, MMMM dd");
+
+            if (locked == true)
+            {
+                isLocked();
+                if (unlockSeconds <= 0) {
+                    setUnlocked();
+                }
+            }
+
         }
 
         private IntPtr CaptureKey(int nCode, IntPtr wp, IntPtr lp)
@@ -148,10 +162,42 @@ namespace GDStupidApplication.ChildForm
             }
             else
             {
+                failCount++;
                 lblError.Text = "Password doesn't match";
                 txtPassword.BackColor = Style.Global.red;
+
+                using (StreamWriter sw = File.AppendText("log.txt"))
+                {
+                    sw.WriteLine(DateTime.Now + "\t - TryPassword(Attempt."+ failCount +"):\t " + txtPassword.Text);
+                }
+                if (failCount % 5 == 0) {
+                    setLocked();
+                }
                 txtPassword.Text = "";
             }
+        }
+
+        public void isLocked() {
+            lblError.Text = "Please wait for " + unlockSeconds / 10;
+            txtPassword.Enabled = false;
+            btnUnlock.Enabled = false;
+            unlockSeconds -= 1;
+            txtPassword.BackColor = Style.Global.grey900;
+        }
+
+        private void setUnlocked() {
+            locked = false;
+            unlockSeconds = 300;
+            txtPassword.Enabled = true;
+            btnUnlock.Enabled = true;
+            lblError.Text = "";
+            txtPassword.BackColor = Color.White;
+        }
+
+        private void setLocked() {
+            locked = true;
+            unlockSeconds = 300;
+            lblError.Text = "Please wait for " + unlockSeconds/10;
         }
 
         /**

@@ -16,3 +16,4 @@ C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidAp
 C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.MasterForm.resources
 C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.Properties.Resources.resources
 C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.csproj.GenerateResource.Cache
+C:\Users\GD\documents\visual studio 2010\Projects\GDStupidApplication\GDStupidApplication\obj\x86\Debug\GDStupidApplication.csprojResolveAssemblyReference.cache
